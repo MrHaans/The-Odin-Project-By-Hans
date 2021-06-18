@@ -50,3 +50,5 @@
     * Untuk menghapus directory / folder.
 * code
     * Untuk membuka file ke VScode secara langsung. Untuk membuka suatu file ke VScode, tinggal ketik code lalu arahkan ke directory.
+* mv
+    * Untuk mengganti nama dari direktory atau file. ex : mv {nama lama} {nama baru}.
