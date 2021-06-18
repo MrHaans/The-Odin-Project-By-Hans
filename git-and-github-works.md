@@ -14,10 +14,43 @@
     * Answer : Karena git dapat melacak perubahan yang Anda buat pada file, sehingga Anda memiliki catatan tentang apa yang telah dilakukan, dan Anda dapat kembali ke versi tertentu jika perlu.
 * Why are Git and GitHub useful for a team of developers?
     * Answer : Karena git dan github memberi Anda tempat terpusat di mana Anda dapat mengunggah perubahan dan mengunduh perubahan dari orang lain, memungkinkan Anda berkolaborasi lebih mudah dengan pengembang lain.
+* What is the Git command used to get a full copy of an existing Git repository from GitHub?
+    * Answer : git clone
+* What is the Git command used to check the status of your files?
+    * Answer : git status
+* What is the Git command used to track files with Git?
+    * Answer : git add
+* What is the Git command used to remove tracked files with Git?
+    * Answer : git rm -cached
+* What is the Git command used to commit files?
+    * Answer : git commit -m "messege"
+* What is the Git command used to view your commit history?
+    * Answer : git log
+* What is the Git command used to upload projects onto GitHub?
+    * Answer : git push -u origin name
+* Explain the two-stage system that Git uses to save files.
+    * Answer : 
+* Explain what origin is in git push origin main.
+    * Answer : 
+* Explain what main is in git push origin main.
+    * Answer : 
 
 ## Git Command
 
-* 
+* git clone
+    * Perintah git untuk menyalin repository dari github.
+* git status
+    * Perintah git untuk melihat status dari file.
+* git add
+    * Perintah git untuk mentrack suatu file.
+* git rm --cached
+    * Perintah git untuk menghapus file yang telah di track.
+* git commit -m "messege"
+    * Perintah git untuk melakukan commit pada file yang telah di track.
+* git log
+    * Perintah git untuk melihat riwayat dari commit.
+* git push -u origin name
+    * Perintah git untuk mengupload projek atau file kedalam github.
 
 ## Glossary
 
