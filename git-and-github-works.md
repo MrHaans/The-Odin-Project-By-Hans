@@ -2,7 +2,7 @@
 
 ## Question to Answer
 
-Chapter I :
+Chapter I
 
 * What kind of program is Git?
     * Answer : Github
@@ -17,7 +17,7 @@ Chapter I :
 * Why are Git and GitHub useful for a team of developers?
     * Answer : Karena git dan github memberi Anda tempat terpusat di mana Anda dapat mengunggah perubahan dan mengunduh perubahan dari orang lain, memungkinkan Anda berkolaborasi lebih mudah dengan pengembang lain.
 
-Chapter II :
+Chapter II
 
 * What is the Git command used to get a full copy of an existing Git repository from GitHub?
     * Answer : git clone
@@ -40,7 +40,7 @@ Chapter II :
 * Explain what main is in git push origin main.
     * Answer : 
 
-Chapter III :
+Chapter III
 
 * How do you create a new repository on GitHub?
     * Answer : Pada github klik tombol NEW berwarna hijau, lalu buat nama untuk repository yang akan dibuat.
