@@ -2,6 +2,8 @@
 
 ## Question to Answer
 
+Chapter I
+
 * What is the role of HTML in a web page?
     * Answer : Berguna untuk melampirkan, atau membungkus, berbagai bagian konten untuk membuatnya tampak dengan cara tertentu, atau bertindak dengan cara tertentu.
 * What is the role of CSS in a web page?
@@ -28,3 +30,86 @@
     * Answer : 
 * How do you reference a file in the directory above your HTML file?
     * Answer : 
+
+Chapter II
+
+* What is the difference between HTML and CSS?
+    * Answer : 
+* For accessibility in HTML, what is the attribute used to describe an image (on screen readers or if it fails to load)?
+    * Answer : 
+* What is the difference between CSS Grid and Flexbox?
+    * Answer : 
+* For a responsive website, should it be designed mobile-first or desktop-first?
+    * Answer : 
+* Describe the components of the CSS Box Model.
+    * Answer : 
+* In CSS, what is a breakpoint?
+    * Answer : 
+* What is a div and how are they used?
+    * Answer : 
+* What are the two main groups of CSS properties that control typography style?
+    * Answer : 
+* What is the “query string” in a URL and what does it do?
+    * Answer : 
+* What is the difference between “pixels” and “em”?
+    * Answer : 
+* How does inheritance work for CSS styles, i.e. how does an element get its “default” styles?
+    * Answer : 
+* What are two CSS attributes you can change to push an element around on the page?
+    * Answer : 
+* What are the three different ways to include a CSS stylesheet in your project or use CSS to style a particular element?
+    * Answer : 
+* What is the “default stylesheet” or “user agent stylesheet”?
+    * Answer : 
+* What is the purpose of a CSS reset file?
+    * Answer : 
+
+## HTML Cheat Sheet
+
+* !-- --
+    * Untuk membuat komentar pada html.
+* p /p
+    * Adalah paragraf.
+* h1 /h1, h2 /h2, h3 /h3 --> 6
+    * adalah header.
+* a /a
+    * Adalah anchor yang berguna untuk menautkan link secara eksternal ataupun internal.
+        Atribut :
+        * href="link" : Sebagai tempat untuk menempelkan suatu link untuk eksternal ataupun hastag untuk internal.
+        * target="*" : Sebagai cara untuk membuka link, bisa dilakukakan didalam ataupun diluar tab.
+* img
+    * Adalah image yang berguna untuk memberikan image pada html.
+        Atribut :
+        * src="link" : Source sebagai tempat untuk menempelkan link dari suatu gambar yang akan diambil.
+        * alt="Messege" : Alternatif sebagai sesuatu yang akan ditampilkan jika tautan dari gambar rusak/hilang. Sehingga hanya menampilkan nama sesuai yang ditulis didalam alt.
+* ul /ul
+    * Berguna untuk membuat list tidak berurutan pada html.
+        Content : 
+        * li /li : Untuk membuat beberapa list.
+* ol /ol
+    * Berguna untuk membuat list berurutan pada html.
+        Content :
+        * li /li : Untuk membuat beberapa list.
+* Nest Anchor
+    * Adalah link yang berada didalam suatu paragraf, ex : Liat beberapa dari list game saya {disini}. Yang disini merupakan link yang bisa diklik.
+* Internal Anchor #
+    * Adalah link internal yang digunakan untuk menautkan ke link yang terdapat dalam suatu konten yang sama.
+        Rumus : anchor; a href="#personal" /a , konten; p {id ="personal"} Nik KTP saya adalah 093294983724932/p
+* main /main
+    * Berfungsi untuk membantu mesin pencari dan developer menemukan konten utama dari halaman kita.
+* input
+    * Berfungsi untuk mendapatkan input dari pengguna.
+        Atribut : 
+        * type="text" : Sebagai bentuk dari input pengguna nantinya.
+        * placeholder="Input NIK" : Sebagai apa yang ditampilkan di input elemen sebelum pengguna melakukan input.
+        * required : Berfungsi sebagai bidang yang wajib diisi oleh pengguna, jika tidak maka tombol button tidak akan bisa berfungsi.
+* form /form
+    * Berfungsi sebagai field yang menyediakan informasi yang bisa di input oleh pengguna.
+        Atribut :
+        * action="Server Name" : Berfungsi untuk mengirim input dari pengguna ke server yang anda punya.
+* button /button
+    * Berfungsi untuk membuat tombol yang bisa diklik oleh penngguna.
+        Atribut :
+        * type="Submit" : Berfungsi untuk mengirimkan data dari formulir Anda ke URL yang Anda tentukan dengan action atribut formulir Anda.
+
+
