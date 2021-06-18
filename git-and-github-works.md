@@ -2,6 +2,8 @@
 
 ## Question to Answer
 
+Chapter I :
+
 * What kind of program is Git?
     * Answer : Github
 * What are the differences between Git and a text editor in terms of what they save and their record keeping?
@@ -14,6 +16,9 @@
     * Answer : Karena git dapat melacak perubahan yang Anda buat pada file, sehingga Anda memiliki catatan tentang apa yang telah dilakukan, dan Anda dapat kembali ke versi tertentu jika perlu.
 * Why are Git and GitHub useful for a team of developers?
     * Answer : Karena git dan github memberi Anda tempat terpusat di mana Anda dapat mengunggah perubahan dan mengunduh perubahan dari orang lain, memungkinkan Anda berkolaborasi lebih mudah dengan pengembang lain.
+
+Chapter II :
+
 * What is the Git command used to get a full copy of an existing Git repository from GitHub?
     * Answer : git clone
 * What is the Git command used to check the status of your files?
@@ -34,6 +39,25 @@
     * Answer : 
 * Explain what main is in git push origin main.
     * Answer : 
+
+Chapter III :
+
+* How do you create a new repository on GitHub?
+    * Answer : Pada github klik tombol NEW berwarna hijau, lalu buat nama untuk repository yang akan dibuat.
+* How do you copy a repository onto your local machine?
+    * Answer : Salin link yang terdapat pada SSH lalu pergi ke terminal dan ketik git clone {link}.
+* What is the default name of your remote connection?
+    * Answer : Nama default untuk remote connnection adalah origin master.
+* How do you check the status of your current repository?
+    * Answer : Dengan mengetik perintah git status pada repository.
+* How do you add files to the staging area in git?
+    * Answer : Untuk menambahkan file ke dalam staging area dengan mengetik git add . untuk semua file dalam repository atau hanya git add {nama file} saja.
+* How do you commit the files to the staging area and add a descriptive message?
+    * Answer : Dengan mengetik git commit -m "messege" sebagai pesan yang deskriptif meengenai fungsi dari file yang kita buat.
+* How do you push your changes to your repository on GitHub?
+    * Answer : Dengan mengetik git push origin name maka file yang telah dimodifikasi akan langsung terupdate ke repository di github.
+* How do you look at the history of your previous commits?
+    * Answer : Dengan mengetik git log maka kita dapat melihat detail dari log commit. Mulai dari nama author, waktu dan apa yang dimodifikasi.
 
 ## Git Command
 
