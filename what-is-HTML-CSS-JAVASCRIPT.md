@@ -111,5 +111,24 @@ Chapter II
     * Berfungsi untuk membuat tombol yang bisa diklik oleh penngguna.
         Atribut :
         * type="Submit" : Berfungsi untuk mengirimkan data dari formulir Anda ke URL yang Anda tentukan dengan action atribut formulir Anda.
+* input
+    * Berfungsi untuk membuat opsi input user berupa checkbox dan radio.
+        Atribut :
+        * type="radio" : Berfungsi untuk membuat opsi pilihan berupa radio button yang hanya dapat dipilih 1 bagian. Dengan menerapkan id pada input, dan for pada label dan disesuaikan dengan nama yang diterapkan pada seluruh radio.
+        * type="checkbox" : Berfungsi untuk membuat opsi pilihan berupa checkbox yang dapat dipilih beberapa bagian.
+        * value="indoor" : Berfungsi untuk mengirimkan pilihan user ke server sesuai nama value yg diberikan. Isi value sesuai dengan nama dari label agar mudah dipahami ketika user menginput.
+        * checked : Berfungsi sebagai opsi centang default pada inputan baik checkbox maupun radio.
+* label /label
+    * Berfungsi untuk membuat sebuah nama pada sebuah inputan, seperti pada checkbox dan radio.
+* div /div
+    * Berfungsi sebagai wadah untuk menampung berbagai element dalam html. Atau bisa disebut pengelompokkan.
 
+## CSS Cheat Sheet
 
+* h2 style="color: red;" /h2
+    * Berfungsi untuk memberikan warna tertentu pada suatu paragraf di html.
+* style p{color: red;} /style
+    * Berfungsi untuk mempermudah pemberian warna hanya dengan memberikan deklarasi dan value didalam blok style.
+* style .blue-text{color: blue;} /style
+    * .blue-text adalah class yang diberikan pada elemnt di html dan dipanggil pada css dengan memiliki awalan titik (.).
+* 
