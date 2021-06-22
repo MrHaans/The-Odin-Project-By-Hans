@@ -184,3 +184,28 @@ Chapter II
     * Merupakan pseudo-class selector yang cocok dengan elemen root dokumen, biasanya html elemen. Dengan menetapkan variable di :root, variable itu akan tersedia secara global dan dapat diakses oleh selector lain di style sheet.
 * @media (max-width: 350px){:root{ --penguin-size: 200px; --penguin-skin: black;}}
     * Berguna untuk mengubah value dari variable di saat layar dalam kondisi tertentu yang telah ditetapkan.
+
+## Visual Design
+
+* Text
+    Atribut tata letak :
+    * text-align: justify; : Menggeser teks dan mertakan antara kanan dan kiri hingga ke bagian tepi.
+    * text-align: center; : Menggeser teks ke bagian tengah.
+    * text-align: right; : Menggeser teks ke bagian kanan.
+    * text-align: left; : Menggeser teks ke bagian kiri.
+    Atribut gaya huruf :
+    * strong /strong : Berguna untuk memberikan huruf tebal pada teks didalam tag dan sebagai penanda ke browser bahwa bagian teks tersebut penting.
+    * u /u : Berguna untuk memberikan garis bawah pada teks didalam tag dan sebagai penanda ke browser bahwa bagian teks tersebut penting.
+    * em /em : Berguna untuk memberikan huruf miring pada teks didalam tag.
+    * s /s : Berguna untuk memberikan huruf tercoret pada teks didalam tag.
+    * font-size : Berguna menambah ukuran dari font.
+    Atribut pembatasan :
+    * hr : Berfungsi memberikan spasi antar elemen dengan memberikan garis yang memisahkannya.
+* Shadow Box
+    Property :
+    * offset-x (seberapa jauh untuk mendorong bayangan secara horizontal dari elemen),
+    * offset-y (seberapa jauh untuk mendorong bayangan secara vertikal dari elemen),
+    * blur-radiu
+    * spread-radius
+    * color
+    ex : box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
