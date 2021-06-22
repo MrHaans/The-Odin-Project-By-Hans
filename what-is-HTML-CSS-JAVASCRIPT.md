@@ -130,5 +130,36 @@ Chapter II
 * style p{color: red;} /style
     * Berfungsi untuk mempermudah pemberian warna hanya dengan memberikan deklarasi dan value didalam blok style.
 * style .blue-text{color: blue;} /style
-    * .blue-text adalah class yang diberikan pada elemnt di html dan dipanggil pada css dengan memiliki awalan titik (.).
-* 
+    * .blue-text adalah class yang diberikan pada elemnt di html dan dipanggil pada css dengan memiliki awalan titik (.). Class dapat digunakan ulang ke beberapa elemen lainnya dengan hanya memberikan nama class yang sama pada beberapa element yang diinginkan.
+* style font-size: 16px /style
+    * Berfungsi untuk mengatur ukuran font dari suatu element.
+* style font-family: monospace /style
+    * Berfungsi untuk mengatur jenis font pada elemnt tertentu.
+* Import font style
+    * Gunakan link href="link ke font" rel="stylesheet" type="text/css"
+* font-family: family_name, generic_name;
+    * Merupakan format untuk memberikan font style yang benar, ketika family_name tidak terindetifikasi maka dia akan menggunakan generic_name sebagai penggantinya.
+* .smaller-image {width: 100px}
+    * Untuk mengatur lebar dari dari image ataupun suatu element.
+* img class1 class2
+    * Dalam suatu element dapat memiliki 2 atau lebih class dengan menggunakan format spasi yang membatasi setiap classnya.
+* Border atribut
+    * Berfungsi untuk membuat garis di tepian element.
+        Atribut :
+        * border-color: green; : Berfungsi untuk menetapkan warna pada border.
+        * border-style: solid; : Berfungsi untuk menetapkan style pada border.
+        * border-width: 10px; : Berfungsi untuk menetapkan lebar dari border.
+        * border-radius: 10px; : Berfungsi untuk memberikan radius pada ujung border sehingga tidak lancip.
+* div background-color: silver; /div
+    * Berfungsi untuk memberikan warna pada latar belakang / background color.
+* form id="cat-photo-form /form
+    * Berfungsi untuk memberikan id pada suatu element, id bersifat unik dan hanya boleh dipakai 1 disetiap element dan nantinya akan sangat berguna untuk menata element tersebut pada javascript.
+* form #cat-photo-form{background-color: green;} /form
+    * Berfungsi ketika akan memberikan style pada id.
+* Kedudukan id lebih tinggi diatas class
+    * Jadi ketika kita memberikan value yg setimpal antara id dan class maka yang diambil adalah value dari sebuah id.
+* Margin, Padding, Border
+    * Merupakan 3 property penting pengontrol ruang di setiap element html.
+        Atribut :
+        * padding: 20px; : Berfungsi mengatur jumlah ruangan antara konten element dan border.
+        * margin: 20px; : Berfungsi mengontrol jumlah ruangan antara elemen border dan elemen sekitarnya.
