@@ -162,4 +162,25 @@ Chapter II
     * Merupakan 3 property penting pengontrol ruang di setiap element html.
         Atribut :
         * padding: 20px; : Berfungsi mengatur jumlah ruangan antara konten element dan border.
+            * padding top, bottom, right, left
         * margin: 20px; : Berfungsi mengontrol jumlah ruangan antara elemen border dan elemen sekitarnya.
+            * margin top, bottom, right, left
+        * padding: 20px 10px 20px 10px; : Memberikan value pada setiap bagian menjadi satu declaration. Berputar bagaikan jarum jam mulai dari atas, kanan, bawah, kiri.
+* style [type=' checkbox']{margin: 10px 0px 15px 0px;} /style
+    * Berfungsi untuk memberikan style pada atribut didalam elemen.
+* Urutan Pengambilan Value dari Terkuat
+    * color: red !important; : Tambahan Important disamping value akan diutamakan dalam css, bahkan mengalahkan inline style dan id.
+    * h1 style="color: red" /h1 : Inline Style adalah elemen terkuat setelah !importan dan dapat mengalahkan id dan class.
+    * '#pink-text {color: red;} : Id adalah elemen terkuat ketiga setelah inline style dan dapat mengalahkan class.
+    * .pink-text {color: red;} : Class adalah elemen terkuat terakhir.
+    * Jika menetapkan banyak class dengan declaration yang sama sehingga memberontak, maka declaration yang diambil adalah pada class bagian yg paling akhir diterapkan.
+* -- penguin-skin: gray;
+    * Merupakan variable css yang dapat digunakan kembali / reusable pada bagian elemen lainnya pada css.
+* background: var(--penguin-skin)
+    * Cara pemanggilan variable untuk menggunakan kembali value didalamnya.
+* background: var(--penguin-skin, black)
+    * Fallback atau opsi sampingan jika value dari variable tidak dideteksi oleh browser, maka dia akan memanggil nilai kedua setelah nama variable.
+* style :root{--variable: red; } /style
+    * Merupakan pseudo-class selector yang cocok dengan elemen root dokumen, biasanya html elemen. Dengan menetapkan variable di :root, variable itu akan tersedia secara global dan dapat diakses oleh selector lain di style sheet.
+* @media (max-width: 350px){:root{ --penguin-size: 200px; --penguin-skin: black;}}
+    * Berguna untuk mengubah value dari variable di saat layar dalam kondisi tertentu yang telah ditetapkan.
